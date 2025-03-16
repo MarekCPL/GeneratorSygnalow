@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programowanie_V"
+        xmlns:oxy="http://oxyplot.org/wpf" x:Class="Programowanie_V.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnWykresTrojkat" Content="Wykres trójkąta" HorizontalAlignment="Left" Margin="59,362,0,0" VerticalAlignment="Top" Height="43" Width="145" Click="btnWykresTrojkat_Click"/>
+        <oxy:PlotView x:Name="plotview" HorizontalAlignment="Left" Margin="27,22,0,0" VerticalAlignment="Top" Height="323" Width="373"/>
+        <Button x:Name="btn_Wykres_Sin" Content="Wykres Sinusa" HorizontalAlignment="Left" Height="43" Margin="292,362,0,0" VerticalAlignment="Top" Width="151" Click="btn_Wykres_Sin_Click"/>
+        <Button x:Name="btn_wykres_prostokat" Content="Wykres prostokąta" HorizontalAlignment="Left" Margin="533,362,0,0" VerticalAlignment="Top" Height="42" Width="146" Click="btn_wykres_prostokat_Click"/>
+        <oxy:PlotView x:Name="plotview_FFT" HorizontalAlignment="Left" Margin="417,22,0,0" VerticalAlignment="Top" Height="323" Width="373"/>
+
+    </Grid>
+</Window>
