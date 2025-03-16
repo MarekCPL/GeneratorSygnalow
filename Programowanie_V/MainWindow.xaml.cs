@@ -113,7 +113,7 @@ namespace Programowanie_V
         private void btn_wykres_prostokat_Click(object sender, RoutedEventArgs e)
         {
             // Generujemy przebieg prostokątny
-            trojkat.Generuj_Prostokat(amplituda: 1.0, czestotliwosc: 0.5, krok: 0.1, t_trwania: 10.0);
+            trojkat.Generuj_Prostokat(amplituda: 1.0, czestotliwosc: 1.0, krok: 0.1, t_trwania: 10.0);
 
             // Tworzymy model wykresu
             var model = new PlotModel { Title = "Przebieg prostokątny" };
